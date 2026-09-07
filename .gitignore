@@ -1,0 +1,14 @@
+~$*.xlsx
+~$*.xls
+*.tmp
+
+# Uživatelská data a exporty
+/data/*.xlsx
+!/templates/sablona_tabor.xlsx
+
+# Editor
+.vscode/
+
+# Zálohy a log
+*.log
+*.bak
