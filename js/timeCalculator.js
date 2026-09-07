@@ -1,0 +1,1 @@
+// Vypočítává intervaly, čisté časy
