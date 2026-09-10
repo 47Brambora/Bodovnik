@@ -4,11 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Správa tábora - Body</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="lib/tailwind.min.css">
+    <!-- Příprava na přechod na TailwindCSS -->
+    <!--<link rel="stylesheet" href="lib/tailwind.min.css">-->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    
+    <!-- Welcome page -->
+    <div id="welcome-msg">
+        <h1 id="welc-msg-title">BODOVNÍK</h1>
+	    <button id="welc-msg-but-edit-mem">Úprava členů</button>
+    </div>
+
+    <!-- Edit members page -->
+    <div class="hidden" id="edit-members">
+        <h1 style="text-align: center;">Úprava členů</h1>
+        <div class="edit-members-navigation">
+            <button>Přidat</button>
+            <button>Odebrat</button>
+            <button>Uložit</button>
+            <button id="to-welcome-page">Hlavní menu</button>
+            <div class="member-table">
+                <!-- TODO -->
+            </div>
+        </div>
+    </div>
+    <script type="module" src="js/ui.js"></script>
 </body>
 </html>
