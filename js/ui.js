@@ -7,7 +7,17 @@ const btnToWelcomePage = document.getElementById('to-welcome-page');
 const addMember = document.getElementById('add-member');
 const editMembersAddMember = document.getElementById('btn-add-member');
 const hideEditMembersAddMember = document.getElementById('btn-hide-add-member');
+const checkboxShowListOfMembers = document.getElementById('show-list-of-members');
+const memberTable = document.getElementById('member-table');
 
+
+checkboxShowListOfMembers.addEventListener('change', () => {
+    if (checkboxShowListOfMembers.checked) {
+        memberTable.classList.remove('hidden');
+    } else {
+        memberTable.classList.add('hidden');
+    };
+});
 
 btnEditMembers.addEventListener('click', () => {
     welcomeMsg.classList.add('hidden');
