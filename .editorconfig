@@ -1,0 +1,50 @@
+# EditorConfig
+
+root = true
+
+[*]
+
+# Unix line ending
+end_of_line = lf
+
+# Add newline at the end of files
+insert_final_newline = true
+
+# Remove whitespace at the end of lines
+trim_trailing_whitespace = true
+
+# Default indentation
+indent_style = space
+indent_size = 4
+
+# Config for files
+
+# Markdown
+[*.md]
+# Disable removing whitespaces at the end of lines
+trim_trailing_whitespace = false
+indent_size = 2
+
+# JavaScript
+[*.js]
+indent_size = 2
+
+# JSON files
+[*.json]
+indent_size = 2
+
+# HTML
+[*.html]
+indent_size = 2
+
+# CSS
+[*.css]
+indent_size = 2
+
+# YAML
+[*.{yml,yaml}]
+indent_size = 2
+
+# SVG
+[*.svg]
+indent_size = 2
