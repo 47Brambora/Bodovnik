@@ -31,6 +31,23 @@ Aplikace je navržena pro bleskové offline použití na jakémkoliv notebooku. 
 
 ## Návod na použití
 
+Pro správnou funkci aplikace je potřeba mít v počítači nainstalovaný **Python** (pro lokální spuštění serveru).
+
+### 1. Stažení aplikace
+
+1. Přejděte na stránku [GitHub Releases](https://github.com/47Brambora/Bodovnik/releases/latest).
+2. V sekci nejnovější verze stáhněte zdrojový archiv **Source code (zip)**.
+3. Stažený ZIP soubor rozbalte na plochu vašeho počítače.
+
+### 2. Spuštění aplikace
+
+Uvnitř rozbalené složky se nachází jednoduchý spouštěcí soubor:
+- **Pro Windows:** Dvakrát klikněte na soubor **`start.bat`**.
+- **Pro Linux:** Spusťte soubor **`start.sh`** (v terminálu nebo přes správce souborů s povoleným spuštěním).
+
+Skript automaticky zapne lokální server a otevře táborový systém ve vašem webovém prohlížeči.
+
+<!--
 ### 1. Rychlá instlace přez terminál (Doporučeno)
 
 Otevřete svůj terminál a vložte následující příkazy dle OS:  
@@ -51,3 +68,4 @@ Pokud nechceme používat terminál můžeme stáhnout instalační script ručn
  - Pro Linux: [install.sh](https://github.com/47Brambora/Bodovnik/releases/latest/download/install.sh)  
 3. Spusťte soubor dvojklikem (V Linuxu je potřeba ještě povolit spuštění skriptu).  
 3. Skript se automaticky postará o instalaci. Jenom ještě odpovíte na pár nezbytných otázek
+-->
