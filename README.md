@@ -31,4 +31,23 @@ Aplikace je navržena pro bleskové offline použití na jakémkoliv notebooku. 
 
 ## Návod na použití pro vedoucí
 
-1. Spuštění: Dvojklikem otevřete soubor `index.html` na ploše notebooku (otevře se ve vašem prohlížeči)
+### 1. Rychlá instlace přez terminál (Doporučeno)
+
+Otevřete svůj terminál a vložte názledující příkazy dle OS:  
+**Linux (Bash):**  
+```bash
+curl -O https://github.com/47Brambora/Bodovnik/releases/latest/download/install.sh && chmod +x install.sh && ./install.sh
+```  
+**Windows (PowerShell)**
+```PowerShell
+Invoke-WebRequest -Uri "[https://github.com/47Brambora/Bodovnik/releases/latest/download/install.bat](https://github.com/47Brambora/Bodovnik/releases/latest/download/install.bat)" -OutFile "install.bat"; .\install.bat
+```
+
+### 2. Instalace přez webový prohlížeč
+
+Pokud nechceme používat terminál můžeme stáhnout instalační script ručně:  
+1. Stáhně te si instalační soubor dle vašeho OS z [Release](https://github.com/47Brambora/Bodovnik/releases/latest):  
+ - Pro Windows: [install.bat](https://github.com/47Brambora/Bodovnik/releases/latest/download/install.bat)  
+ - Pro Linux: [install.sh](https://github.com/47Brambora/Bodovnik/releases/latest/download/install.sh)  
+3. Spusťte soubor dvojklikem (V Linuxux je potřeba ještě povolit spuštění scriptu).  
+3. Skript se automaticky postárá o instalaci. Jenom ještě zotpovíte na pár nezbytných otázek
