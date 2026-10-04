@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "name": "Jan Novák",
+    "category": "A",
+    "team": "Black"
+  },
+  {
+    "id": 1,
+    "name": "Eliška Dvořáková",
+    "category": "B",
+    "team": "blue"
+  }
+]

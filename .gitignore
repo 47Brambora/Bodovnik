@@ -3,8 +3,8 @@
 *.tmp
 
 # Uživatelská data a exporty
-/data/*.xlsx
-!/templates/sablona_tabor.xlsx
+/data/*
+!/data/*.template.*
 
 # Editor
 .vscode/
