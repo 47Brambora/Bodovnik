@@ -12,26 +12,26 @@ const memberTable = document.getElementById('member-table');
 
 
 checkboxShowListOfMembers.addEventListener('change', () => {
-    if (checkboxShowListOfMembers.checked) {
-        memberTable.classList.remove('hidden');
-    } else {
-        memberTable.classList.add('hidden');
-    };
+  if (checkboxShowListOfMembers.checked) {
+    memberTable.classList.remove('hidden');
+  } else {
+    memberTable.classList.add('hidden');
+  };
 });
 
 btnEditMembers.addEventListener('click', () => {
-    welcomeMsg.classList.add('hidden');
-    editMembers.classList.remove('hidden');
+  welcomeMsg.classList.add('hidden');
+  editMembers.classList.remove('hidden');
 });
 
 editMembersAddMember.addEventListener('click', () => {
-    addMember.classList.remove('hidden');
+  addMember.classList.remove('hidden');
 });
 hideEditMembersAddMember.addEventListener('click', () => {
-    addMember.classList.add('hidden');
+  addMember.classList.add('hidden');
 });
 
 btnToWelcomePage.addEventListener('click', () => {
-    welcomeMsg.classList.remove('hidden');
-    editMembers.classList.add('hidden');
+  welcomeMsg.classList.remove('hidden');
+  editMembers.classList.add('hidden');
 });
