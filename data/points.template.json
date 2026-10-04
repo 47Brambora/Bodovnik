@@ -9,7 +9,7 @@
     },
     {
       "name": "Střelba z lukem",
-      "scores" [
+      "scores": [
         { "id": 0, "points": 15 },
         { "id": 1, "points": 12 }
       ]

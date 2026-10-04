@@ -29,11 +29,11 @@ Aplikace je navržena pro bleskové offline použití na jakémkoliv notebooku. 
  - Práce s Excelem: SheetJS(`xlsx.js`) - kompletní offline čtení a zápis `.xlsx`  
  - Běhové prostředí: Jakýkoliv běžný webový prohlížeč
 
-## Návod na použití pro vedoucí
+## Návod na použití
 
 ### 1. Rychlá instlace přez terminál (Doporučeno)
 
-Otevřete svůj terminál a vložte názledující příkazy dle OS:  
+Otevřete svůj terminál a vložte následující příkazy dle OS:  
 **Linux (Bash):**  
 ```bash
 curl -O https://github.com/47Brambora/Bodovnik/releases/latest/download/install.sh && chmod +x install.sh && ./install.sh
@@ -46,8 +46,8 @@ Invoke-WebRequest -Uri "[https://github.com/47Brambora/Bodovnik/releases/latest/
 ### 2. Instalace přez webový prohlížeč
 
 Pokud nechceme používat terminál můžeme stáhnout instalační script ručně:  
-1. Stáhně te si instalační soubor dle vašeho OS z [Release](https://github.com/47Brambora/Bodovnik/releases/latest):  
+1. Stáhněte si instalační soubor dle vašeho OS z [Release](https://github.com/47Brambora/Bodovnik/releases/latest):  
  - Pro Windows: [install.bat](https://github.com/47Brambora/Bodovnik/releases/latest/download/install.bat)  
  - Pro Linux: [install.sh](https://github.com/47Brambora/Bodovnik/releases/latest/download/install.sh)  
-3. Spusťte soubor dvojklikem (V Linuxux je potřeba ještě povolit spuštění scriptu).  
-3. Skript se automaticky postárá o instalaci. Jenom ještě zotpovíte na pár nezbytných otázek
+3. Spusťte soubor dvojklikem (V Linuxu je potřeba ještě povolit spuštění skriptu).  
+3. Skript se automaticky postará o instalaci. Jenom ještě odpovíte na pár nezbytných otázek
